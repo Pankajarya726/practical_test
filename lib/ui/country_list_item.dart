@@ -20,8 +20,8 @@ class CountryListTile extends StatelessWidget {
                     country.flag,
                     // semanticsLabel: 'Flag',
                     fit: BoxFit.contain,
-                    allowDrawingOutsideViewBox: true,
-                    excludeFromSemantics: true,
+                    allowDrawingOutsideViewBox: false,
+                    excludeFromSemantics: false,
                     width: MediaQuery.of(context).size.width * 0.25,
                     height: MediaQuery.of(context).size.width * 0.25,
                     placeholderBuilder: (BuildContext context) => Container(
