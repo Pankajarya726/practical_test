@@ -49,6 +49,7 @@ class _SearchCountryScreenState extends State<SearchCountryScreen> {
                   Navigator.pop(context);
                 } else {
                   txtSearch.clear();
+                  controller.add(widget.countries);
                 }
               },
               iconSize: 25,
